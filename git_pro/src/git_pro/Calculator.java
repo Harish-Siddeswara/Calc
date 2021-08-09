@@ -11,6 +11,7 @@ public class Calculator {
 		System.out.println("Add: "+add(a,b));
 		System.out.println("Sub: "+sub(a,b));
 		System.out.println("Mul: "+mul(a,b));
+		System.out.println("div: "+div(b,a));
 	}
 
 	public static int add(int a,int b)
@@ -28,6 +29,12 @@ public class Calculator {
 	public static int mul(int a,int b)
 	{
 		int res=a*b;
+		return res;
+	}
+	
+	public static int div(int a,int b)
+	{
+		int res=a/b;
 		return res;
 	}
 }
